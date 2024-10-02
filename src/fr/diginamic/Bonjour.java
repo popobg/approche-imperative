@@ -1,9 +1,9 @@
 package fr.diginamic;
 
 public class Bonjour {
-    // "main" for quick completion by IntelliJ for the main method
+    // "main" pour auto-complétion rapide de la méthode main par IntelliJ
     public static void main(String[] args) {
-        // "sout" for quick completion by IntelliJ for print in console
+        // "sout" pour auto-complétion rapide par IntelliJ pour afficher dans la console
         System.out.println("Bonjour tout le monde !");
     }
 }
