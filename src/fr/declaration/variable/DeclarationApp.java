@@ -6,8 +6,9 @@ public class DeclarationApp {
         // integer types
         byte byteNumber = 127;
         short shortNumber = -32000;
-        int intNumber = 125000;
-        long longNumber = -60000000L;
+        int intNumber = 125_000;
+        // without L, implicit conversion into an "int"
+        long longNumber = -60_000_000L;
 
         // decimal types
         float floatNumber = 1.289F;
