@@ -9,8 +9,8 @@ public class ExerciceDeclarationTab {
         System.out.println("Dernier élément du tableau : " + numbers[numbers.length - 1]);
 
         /*
-        ArrayIndexOutOfBoundsException : l'exception suivante survient à la compilation.
-        "Index 10 out of bounds for length 8" indique le message d'erreur.
+        "ArrayIndexOutOfBoundsException" : l'exception suivante survient à la compilation.
+        Message d'erreur : "Index 10 out of bounds for length 8".
         Cela signifie que l'on cherche à accéder à un élément inexistant du tableau, qui n'est pas dans ses limites :
         index minimum = 0, maximum = 7 pour notre tableau.
          */

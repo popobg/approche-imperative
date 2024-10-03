@@ -9,8 +9,8 @@ public class ExerciceBoucleBase {
         System.out.print("Voici les nombres de 1 à 10 : ");
         for (int i = 1; i < 11; i++) {
             if (i == 10) {
-                System.out.println(i);
-                continue;
+                System.out.println(i + ".");
+                break;
             }
             System.out.print(i + ", ");
         }
@@ -25,8 +25,8 @@ public class ExerciceBoucleBase {
         System.out.print("Nombres pairs de 2 à 100 : ");
         for (int i = 2; i <= 100; i += 2) {
             if (i == 100) {
-                System.out.println(i);
-                continue;
+                System.out.println(i + ".");
+                break;
             }
             System.out.print(i + ", ");
         }
@@ -35,8 +35,8 @@ public class ExerciceBoucleBase {
         System.out.print("Nombres impairs de 1 à 99 : ");
         for (int i = 1; i < 100; i += 2) {
             if (i == 99) {
-                System.out.println(i);
-                continue;
+                System.out.println(i + ".");
+                break;
             }
             System.out.print(i + ", ");
         }
