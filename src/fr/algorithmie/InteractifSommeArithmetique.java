@@ -1,23 +1,8 @@
 package fr.algorithmie;
 
-import java.util.Scanner;
-
 public class InteractifSommeArithmetique {
     public static void main(String[] args) {
-        int userNumber = 0;
-        Scanner scanner = new Scanner(System.in);
-
-        while (userNumber <= 1) {
-            System.out.println("Entrez un nombre entier positif :");
-            try {
-                userNumber = scanner.nextInt();
-            }
-            catch(Exception InputMismatchException) {
-                System.out.println("Ceci n'est pas un nombre entier.");
-                System.out.println();
-                scanner.nextLine();
-            }
-        }
+        int userNumber = Tools.getIntInput(0, 2_000_000_000);
 
         int sum = 0;
 

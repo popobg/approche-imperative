@@ -21,15 +21,17 @@ public class Tools {
 
     /**
      * Fonction statique qui demande à l'utilisateur de saisir un chiffre
-     * entre 1 et 10 (inclus) dans la console.
+     * dans la console, compris dans les limites données en paramètres.
+     * @param min : un entier constituant la limite minimale autorisée.
+     * @param max : un entier constituant la limite maximale autorisée.
      * @return int : retourne le nombre choisi par l'utilisateur.
      */
-    public static int getIntInput() {
-        int userNumber = 0;
+    public static int getIntInput(int min, int max) {
+        int userNumber = min - 1;
         Scanner scanner = new Scanner(System.in);
 
         do {
-            System.out.println("Entrez un nombre entier compris entre 1 et 10 (inclus) :");
+            System.out.printf("Entrez un nombre entier compris entre %s et %s (inclus) :%n", min, max);
 
             try {
                 userNumber = scanner.nextInt();
@@ -39,7 +41,7 @@ public class Tools {
                 System.out.println();
                 scanner.nextLine();
             }
-        } while (userNumber < 1 || userNumber > 10);
+        } while (userNumber < min || userNumber > max);
 
         return userNumber;
     }

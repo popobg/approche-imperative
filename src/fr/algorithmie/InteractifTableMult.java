@@ -1,7 +1,5 @@
 package fr.algorithmie;
 
-import java.util.Scanner;
-
 public class InteractifTableMult {
     public static void main(String[] args) {
         /*
@@ -10,7 +8,7 @@ public class InteractifTableMult {
         de l'utilisateur. Cela permet de me faire gagner du temps
         et diminue la quantité de code d'un fichier.
          */
-        int userNumber = Tools.getIntInput();
+        int userNumber = Tools.getIntInput(1, 10);
 
         /*
          On pourrait faire avec if/else mais c'est très redondant et peu optimisé.
