@@ -2,6 +2,10 @@ package fr.boucles;
 
 public class ExerciceBoucleBase {
     public static void main(String[] args) {
+        /*
+        print = print without line break at the end ;
+        println = print with line break at the end
+        */
         System.out.print("Voici les nombres de 1 à 10 : ");
         for (int i = 1; i < 11; i++) {
             if (i == 10) {
@@ -28,7 +32,7 @@ public class ExerciceBoucleBase {
         }
         System.out.println();
 
-        System.out.print("Elément impairs de 1 à 99 : ");
+        System.out.print("Nombres impairs de 1 à 99 : ");
         for (int i = 1; i < 100; i += 2) {
             if (i == 99) {
                 System.out.println(i);
