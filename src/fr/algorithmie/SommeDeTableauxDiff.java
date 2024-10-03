@@ -18,6 +18,6 @@ public class SommeDeTableauxDiff {
 
         // Affiche les éléments du tableau résultant de la somme des deux premiers tableaux.
         // Nécessite l'import de la classe contenant la méthode statique.
-        Tools.DisplayArray(sumArray, "sommé");
+        Tools.displayArray(sumArray, "sommé");
     }
 }

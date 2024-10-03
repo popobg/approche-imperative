@@ -21,6 +21,6 @@ public class Rotation {
 
         // Affiche le tableau modifié dans la console, à l'aide d'une fonction écrite
         // dans un exercice précédent.
-        Tools.DisplayArray(array, "décalés d'un rang vers la droite");
+        Tools.displayArray(array, "décalés d'un rang vers la droite");
     }
 }

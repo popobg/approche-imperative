@@ -1,7 +1,5 @@
 package fr.algorithmie;
 
-import fr.algorithmie.Tools;
-
 public class InversionContenu {
     public static void main(String[] args) {
         int[] array = { 1, 15, -3, 0, 8, 7, 4, -2, 28, 7, -1, 17, 2, 3, 0, 14, -4 } ;
@@ -18,7 +16,7 @@ public class InversionContenu {
         j'ai préféré écrire une fonction contenue dans une classe Tools.
         Cette fonction est statique pour pouvoir l'appeler sans créer d'instance d'objet.
          */
-        Tools.DisplayArray(array, "initial");
-        Tools.DisplayArray(arrayCopy, "inversé");
+        Tools.displayArray(array, "initial");
+        Tools.displayArray(arrayCopy, "inversé");
     }
 }
