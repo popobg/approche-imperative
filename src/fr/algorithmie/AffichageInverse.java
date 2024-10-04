@@ -19,6 +19,8 @@ public class AffichageInverse {
         System.out.println();
 
         // Création d'une copie du tableau
+        // On peut aussi y parvenir en créant un tableau de même taille que array
+        // et en copiant indice par indice le tableau original à l'aide d'une boucle for.
         int[] arrayCopy = Arrays.copyOf(array, array.length);
     }
 }
